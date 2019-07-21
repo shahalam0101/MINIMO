@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #626262;
+}
+img{
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+a:hover{
+	text-decoration: none;
+}
+.top{
+	width: 90%;
+	margin: 0 auto;
+}
+/*NAVBAR*/
+.navbar-collapse ul li{
+	padding: 0 40px;
+}
+.navbar-collapse ul li:last-child{
+	padding-right: 0;
+}
+.navbar-collapse ul li a{
+	font-size: 14px;
+	color: #626262;
+	text-transform: uppercase;
+}
+/*HERO*/
+.hero img{
+	width: 100%;
+	height: auto;
+}
+/*PHOTODIRY*/
+.p-c{
+	color: #b4ad9e;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+/*SIGNUP*/
+.signup{
+	background-color: #f0f0f0;
+}
+.submite{
+	position: relative;
+	background: none;
+	box-shadow: none;
+	border: none;
+	border-bottom: 1px solid #000000;
+	width: 40%;
+}
+.fa-paper-plane{
+	position: absolute;
+	right: 32%;
+}
+.fa-paper-plane:hover{
+	cursor: pointer;
+}
+
+button{
+	font-weight: 20px;
+	padding: 10px 25px;
+	border: 1px solid #000000;
+	background: none;
+	transition: .2s;
+}
+button:hover{
+	background: #EBEDEF;
+	color: #626262;
+	cursor: pointer;
+}
+
+/*FOOTER*/
+footer{
+	background: #f0f0f0;
+	padding: 5px 0px;
+}
+.trams{
+	float: left;
+}
+.social{
+	float: right;
+}
